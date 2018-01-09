@@ -23,12 +23,12 @@ header {
 
 /* DESKTOP HEADER */
 @media only screen and (min-width: 481px) {
-  .mobile {
+  #mobile {
     display: none;
   }
 }
 
-header.desktop {
+header #desktop {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,12 +62,12 @@ nav a {
 /* MOBILE HEADER */
 
 @media only screen and (max-width: 480px) {
-  .desktop {
+  #desktop {
     display: none;
   }
 }
 
-header.mobile {
+header #mobile {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -79,7 +79,7 @@ header.mobile {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  top: 4rem;
+  margin-top: 4rem;
   width: 100%;
   background-color: lightgray;
 }
