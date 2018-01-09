@@ -26,13 +26,12 @@ header {
   .mobile {
     display: none;
   }
+  header .desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
 }
-
-header .desktop {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  }
 
 .logo {
   display: flex;
@@ -65,13 +64,12 @@ nav a {
   .desktop {
     display: none;
   }
-}
-
-header .mobile {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 4rem;
+  header .mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 4rem;
+  }
 }
 
 /* BANNER */
